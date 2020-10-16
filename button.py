@@ -11,7 +11,7 @@ class Button():
         # 设置按钮的尺寸和其他属性
         self.width, self.height = 200, 50
         self.button_color = (0, 255, 0)  # 按钮为亮绿色
-        self.text_color = (2555, 255, 255)  # 文本为白色
+        self.text_color = (255, 255, 255)  # 文本为白色
         self.font = pygame.font.SysFont(None, 48)  # 实参Nnone让Pygame使用默认字体,48为文本字号
 
         # 创建按钮的rect对象,并使其居中
